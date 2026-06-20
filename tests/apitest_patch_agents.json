@@ -1,0 +1,38 @@
+{
+  "info": {
+    "name": "My API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Patch login agent",
+      "request": {
+        "method": "PATCH",
+        "header": [
+			{
+				"key": "Content-Type",
+				"value": "application/json"		
+			}      
+		],
+		"body": {
+			"mode": "raw",
+			"raw": "{\n\"login\": \"ZALUPATEST\"}"
+        },		
+        "url": {
+          "raw": "http://localhost:3000/agents",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["agents"],
+		  "query": [
+			  {
+				"key": "id",
+				"value": "eq.6"
+			  }
+		  ]
+        }
+      },
+      "response": []
+    }	
+  ]
+}

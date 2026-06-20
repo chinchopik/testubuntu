@@ -1,0 +1,53 @@
+{
+  "info": {
+    "name": "My API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get all clients",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/clients",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["clients"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get all agents",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/agents",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["agents"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get all realestates",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/realestates",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["realestates"]
+        }
+      },
+      "response": []
+    }
+  ]
+}

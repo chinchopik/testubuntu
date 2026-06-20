@@ -1,0 +1,32 @@
+{
+  "info": {
+    "name": "My API Tests",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create position supertest",
+      "request": {
+        "method": "POST",
+        "header": [
+			{
+				"key": "Content-Type",
+				"value": "application/json"		
+			}      
+		],
+		"body": {
+			"mode": "raw",
+			"raw": "{\"name\": \"ZALUPATEST\"}"
+        },		
+        "url": {
+          "raw": "http://localhost:3000/supertest",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3000",
+          "path": ["supertest"]
+        }
+      },
+      "response": []
+    }	
+  ]
+}
